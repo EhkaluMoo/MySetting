@@ -40,22 +40,30 @@
 			<key>Type</key>
 			<string>PSMultiValueSpecifier</string>
 			<key>Title</key>
-			<string>Favorite Color</string>
+			<string>Favorite Day</string>
 			<key>Key</key>
-			<string>color</string>
+			<string>Day</string>
 			<key>DefaultValue</key>
-			<string>Green</string>
+			<string>Friday</string>
 			<key>Values</key>
 			<array>
-				<string>Red</string>
-				<string>Green</string>
-				<string>Blue</string>
+				<string>Monday</string>
+				<string>Tuesday</string>
+				<string>Wenesday</string>
+				<string>Thursday</string>
+				<string>Friday</string>
+				<string>Saturday</string>
+				<string>Sunday</string>
 			</array>
 			<key>Titles</key>
 			<array>
-				<string>Red Color</string>
-				<string>Green Color</string>
-				<string>Blue Color</string>
+				<string>Mon Day</string>
+				<string>Tues Day</string>
+				<string>Wenes Day</string>
+				<string>Thurs Day</string>
+				<string>Fri Day</string>
+				<string>Satur Day</string>
+				<string>Sun Day</string>
 			</array>
 		</dict>
 	</array>

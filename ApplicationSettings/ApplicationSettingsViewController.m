@@ -16,7 +16,7 @@
 
 @synthesize loginName;
 @synthesize password;
-@synthesize favoriteColor;
+@synthesize favoriteDay;
 NSMutableArray *colors;
 NSString *favoriteColorSelected;
 
@@ -30,9 +30,9 @@ NSString *favoriteColorSelected;
 {
     //--create an array containing the colors values--
     colors=[[NSMutableArray alloc] init];
-    [colors addObject:@"Red"];
-    [colors addObject:@"Green"];
-    [colors addObject:@"Blue"];
+    [colors addObject:@"Monday"];
+    [colors addObject:@"TuesDay"];
+    [colors addObject:@"WenesDay"];
     
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.

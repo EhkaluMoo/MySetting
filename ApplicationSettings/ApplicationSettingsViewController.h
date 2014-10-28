@@ -13,12 +13,12 @@
 {
     IBOutlet UITextField *loginName;
     IBOutlet UITextField *password;
-    IBOutlet UIPickerView *favoriteColor;
+    IBOutlet UIPickerView *favoriteday;
 }
 
 @property (nonatomic, retain) UITextField *loginName;
 @property (nonatomic, retain) UITextField *password;
-@property (nonatomic, retain) UIPickerView *favoriteColor;
+@property (nonatomic, retain) UIPickerView *favoriteDay;
 
 -(IBAction)loadSettings:(id)sender;
 -(IBAction)saveSettings:(id)sender;
